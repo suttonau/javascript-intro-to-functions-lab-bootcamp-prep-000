@@ -15,11 +15,11 @@ function logWhisper(string) {
 }
 
 
-var uppercase = "HELLO!"
+var uppercase = `$(string)`
 
 uppercase.toUpperCase() === uppercase
 
-var lowercase = "hello!" 
+var lowercase = `$(string)` 
 
 lowercase.toLowerCase() === lowercase
 
