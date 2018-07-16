@@ -15,6 +15,8 @@ function logWhisper(string) {
 }
 
 
+
+
 var uppercase = `$(string)`
 
 uppercase.toUpperCase() === uppercase
